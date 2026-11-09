@@ -1,0 +1,6 @@
+{
+  "name": "Board Boss Drywall",
+  "description": "Premium contracting landing page for Board Boss Drywall, trusted by general contractors, builders, and developers across Niagara and Ontario.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
