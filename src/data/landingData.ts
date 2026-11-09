@@ -1,8 +1,14 @@
 import { ServiceItem, ProjectItem, TestimonialItem, ProcessStep, TeamMember } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_construction_drywall_1793376274819.jpg';
-export const WHY_CHOOSE_IMAGE = '/src/assets/images/gc_advantage_construction_1793378411286.jpg';
-export const FOUNDER_IMAGE = '/src/assets/images/why_choose_jobsite_foreman_1793376276668.jpg';
+import heroDrywallImg from '../assets/images/hero_construction_drywall_1793376274819.jpg';
+import gcAdvantageImg from '../assets/images/gc_advantage_construction_1793378411286.jpg';
+import foremanImg from '../assets/images/why_choose_jobsite_foreman_1793376276668.jpg';
+import modernEstateImg from '../assets/images/project_custom_modern_estate_1793376274848.jpg';
+import multiunitSubdivisionImg from '../assets/images/project_multiunit_subdivision_1793376276050.jpg';
+
+export const HERO_IMAGE = heroDrywallImg;
+export const WHY_CHOOSE_IMAGE = gcAdvantageImg;
+export const FOUNDER_IMAGE = foremanImg;
 
 export const TRUST_STATS = [
   {
@@ -120,7 +126,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     sqft: '8,500 sq ft',
     finishLevel: 'Level 5 Architectural Skim Coat',
     duration: '6 Weeks',
-    image: '/src/assets/images/project_custom_modern_estate_1793376274848.jpg',
+    image: modernEstateImg,
     description: 'An expansive architectural residence featuring 18-foot soaring ceilings, recessed ceiling light coves, and 12-foot floor-to-ceiling glass walls with extreme natural raking light.',
     highlights: [
       '100% Level 5 monolithic finish across all great room surfaces',
@@ -140,7 +146,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     sqft: '76,000 sq ft (32 Units)',
     finishLevel: 'Level 4 Production Finish',
     duration: '14 Weeks',
-    image: '/src/assets/images/project_multiunit_subdivision_1793376276050.jpg',
+    image: multiunitSubdivisionImg,
     description: 'A 32-unit executive townhome development with tight trade turnovers. Board Boss managed multi-crew sequencing for continuous boarding, taping, and fire-separation inspections.',
     highlights: [
       'Delivered 4 days ahead of scheduled general contractor turnover',
@@ -160,7 +166,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     sqft: '24,000 sq ft',
     finishLevel: 'Level 4 + Suspended Acoustic Ceiling',
     duration: '8 Weeks',
-    image: '/src/assets/images/hero_construction_drywall_1793376274819.jpg',
+    image: heroDrywallImg,
     description: 'Commercial medical office fit-out requiring high-performance STC acoustic partitions, lead-lined X-ray barrier board, and suspended Armstrong acoustic grid ceilings.',
     highlights: [
       'Lead-backed radiation shielding gypsum installation in imaging suite',
@@ -180,7 +186,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     sqft: '42,000 sq ft (18 Suites)',
     finishLevel: 'Level 4 + Level 5 Penthouses',
     duration: '10 Weeks',
-    image: '/src/assets/images/project_multiunit_subdivision_1793376276050.jpg',
+    image: multiunitSubdivisionImg,
     description: 'Boutique luxury lakefront condominiums featuring concrete-to-steel demising walls, dropped HVAC bulkheads with integrated linear diffusers, and Level 5 top-floor penthouses.',
     highlights: [
       'Complex recessed drapery pockets and curved architectural bulkheads',
